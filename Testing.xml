@@ -37,7 +37,6 @@
                 </statement>
                 <next>
                   <block type="controls_if" id="118" inline="false">
-                    <mutation else="1"></mutation>
                     <value name="IF0">
                       <block type="sensor_object" id="119">
                         <field name="OBJECT">LEFTFRONT</field>
@@ -55,9 +54,6 @@
                           </block>
                         </next>
                       </block>
-                    </statement>
-                    <statement name="ELSE">
-                      <block type="movement_forward" id="147"></block>
                     </statement>
                   </block>
                 </next>

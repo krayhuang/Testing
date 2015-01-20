@@ -16,7 +16,7 @@
               </block>
             </value>
             <statement name="DO0">
-              <block type="movement_right" id="85">
+              <block type="movement_left" id="384">
                 <next>
                   <block type="robot_delay" id="128" inline="true">
                     <value name="DELAY">
@@ -49,7 +49,7 @@
                   </block>
                 </value>
                 <statement name="DO0">
-                  <block type="movement_left" id="141">
+                  <block type="movement_right" id="374">
                     <next>
                       <block type="robot_delay" id="130" inline="true">
                         <value name="DELAY">

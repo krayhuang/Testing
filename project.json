@@ -1,0 +1,10 @@
+{
+    "name": "Testing",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "Testing.xml",
+    "author": "krayhuang",
+    "minimum_firmware_version": 42
+}

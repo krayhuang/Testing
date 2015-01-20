@@ -32,7 +32,7 @@
                 </statement>
                 <next>
                   <block type="controls_if" id="118" inline="false">
-                    <mutation elseif="1"></mutation>
+                    <mutation else="1"></mutation>
                     <value name="IF0">
                       <block type="sensor_object" id="119">
                         <field name="OBJECT">LEFTFRONT</field>
@@ -51,7 +51,7 @@
                         </next>
                       </block>
                     </statement>
-                    <statement name="DO1">
+                    <statement name="ELSE">
                       <block type="movement_forward" id="147"></block>
                     </statement>
                   </block>

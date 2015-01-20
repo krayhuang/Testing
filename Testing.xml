@@ -2,6 +2,11 @@
   <block type="movement_forward" id="10" x="-9" y="-10">
     <next>
       <block type="robot_delay" id="21" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="93">
+            <field name="NUM">100</field>
+          </block>
+        </value>
         <next>
           <block type="movement_left" id="55"></block>
         </next>

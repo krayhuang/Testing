@@ -11,8 +11,8 @@
         <next>
           <block type="controls_if" id="68" inline="false">
             <value name="IF0">
-              <block type="sensor_object" id="75">
-                <field name="OBJECT">LEFTFRONT</field>
+              <block type="sensor_light" id="372">
+                <field name="LIGHT">LEFT</field>
               </block>
             </value>
             <statement name="DO0">
@@ -44,8 +44,8 @@
             <next>
               <block type="controls_if" id="118" inline="false">
                 <value name="IF0">
-                  <block type="sensor_object" id="119">
-                    <field name="OBJECT">RIGHTFRONT</field>
+                  <block type="sensor_light" id="373">
+                    <field name="LIGHT">RIGHT</field>
                   </block>
                 </value>
                 <statement name="DO0">

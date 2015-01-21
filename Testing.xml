@@ -7,8 +7,10 @@
             <field name="NUM">1000</field>
           </block>
         </value>
+        <next>
+          <block type="movement_stop" id="245"></block>
+        </next>
       </block>
     </next>
   </block>
-  <block type="movement_stop" id="245" x="-182" y="-110"></block>
 </xml>
